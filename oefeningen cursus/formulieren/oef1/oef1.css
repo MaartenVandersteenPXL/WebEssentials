@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: large;
+}
+
+section {
+    display: flex;
+    position: relative;
+    width: 500px;
+    padding-bottom: 30px;
+}
+input {
+    position: absolute;
+    right: 0rem;
+}
+div {
+    display: flex;
+    position: relative;
+    width: 250px;
+}
+
+.button {
+    width: 600px;
+}
+button {
+    width: 300px;
+    padding: 20px;
+    font-size: x-large;
+    margin: 5px;
+}

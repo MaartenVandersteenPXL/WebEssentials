@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Voorbeeld</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <link href="css/oef3.css" rel="stylesheet">
+</head>
+<body>
+<form action="verwerk.html" method="get">
+    <fieldset class="dwars">
+        <div>
+            <label for="Naam">Naam</label>
+            <input type="text" id="Naam" name="Naam" required>
+        </div>
+        <div>
+            <label for="Voornaam">Voornaam</label>
+            <input type="text" id="VoorNaam" name="VoorNaam" required>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <section>
+            <legend class="uitlijn">Gekozen boek</legend>
+            <input type="radio" id="boek1" name="boek1">
+            <label for="boek1">boek1</label>
+            <input type="radio" id="boek2" name="boek2">
+            <label for="boek2">boek2</label>
+            <input type="radio" id="boek3" name="boek3">
+            <label for="boek3">boek3</label>
+        </section>
+    </fieldset>
+    <fieldset>
+        <label for="Leesbaarheid">Leesbaarheid</label>
+        <input class="lenght" type="range" id="Leesbaarheid" name="Leesbaarheid" min="0" max="10" step="1" value="5" >
+    </fieldset>
+    <fieldset>
+        <label for="Review">Review</label>
+        <section>
+            <textarea id="Review" name="Review" placeholder="Schrijf je review hier..." rows="5" cols="90"></textarea>
+        </section>
+    </fieldset>
+    <fieldset>
+        <button>Verstuur</button>
+    </fieldset>
+
+
+
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+    color: white;
+    width: 600px;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+section {
+    margin: 20px;
+    width: 600px;
+}
+
+.head {
+    width: 200px;
+    text-align: right;
+}
+
+div {
+    display: inline-block;
+    width: 400px;
+}

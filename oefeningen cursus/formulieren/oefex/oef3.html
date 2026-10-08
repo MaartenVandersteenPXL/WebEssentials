@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>feedback document</title>
+    <link href="oef3.css" rel="stylesheet">
+</head>
+<body>
+<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+    <fieldset>
+        <legend>Feedback lokalen</legend>
+        <section>
+            <label for="Lokaal">Lokaal</label>
+            <select class="fixed" id="Lokaal" name="Lokaal">
+                <option value="B051">B051: leslokaal</option>
+                <option value="B052">B052: leslokaal</option>
+                <option value="B053">B053: leslokaal</option>
+                <option value="B343">B343: auditorium</option>
+            </select>
+        </section>
+        <section>
+            <label for="Datum">Datum</label>
+            <input class="fix" type="date" name="Datum" id="Datum" size="400">
+        </section>
+        <section>
+            <span>Tevredenheid</span>
+            <label for="1">1</label>
+            <input type="radio" name="tevredenheid" id="1" value="1">
+            <label for="2">2</label>
+            <input type="radio" name="tevredenheid" id="2" value="2">
+            <label for="3">3</label>
+            <input type="radio" name="tevredenheid" id="3" value="3">
+            <label for="4">4</label>
+            <input type="radio" name="tevredenheid" id="4" value="4">
+        </section>
+        <section class="invert">
+            <label for="Opmerking">Opmerking</label>
+            <textarea id="Opmerking" name="Opmerking"></textarea>
+        </section>
+        <button>verzenden</button>
+
+    </fieldset>
+</form>
+
+</body>
+</html>

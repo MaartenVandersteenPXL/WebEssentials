@@ -1,0 +1,36 @@
+/* naam:Vandersteen Maarten */
+
+table {
+    width: 900px;
+    height: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid white;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+
+tbody td:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}

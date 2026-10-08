@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width:320px;
+}
+section {
+    display:flex;
+    justify-content: space-between;
+    margin: 5px 0px 5px 0px;
+}
+textarea {
+    width:320px;
+    height: 5em;
+}
+
+button {
+    width:320px;
+}
+.invert {
+    flex-direction: column;
+}
+
+.fix {
+    width: 225px;
+}
+
+.fixed {
+    width: 225px;
+    background-color: lightgray;
+}
+
+label, span {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 1px solid black;
+}

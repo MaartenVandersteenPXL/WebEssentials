@@ -1,0 +1,152 @@
+/* naam: Maarten Vandersteen*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width:1200px;
+    margin:auto;
+}
+
+nav{
+    width:100%;
+    background-color:black;
+    height:80px;
+    color:white;
+    position: sticky;
+    top: 0rem;
+    z-index: 10;
+}
+footer{
+    width:100%;
+    background-color:black;
+    color:white;
+    position: sticky;
+    bottom: 0rem;
+    text-align: center;
+}
+
+main{
+    width: 66%;
+    margin: 120px 200px 50px 200px;
+}
+
+img{width:100%; height:auto;}
+
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    list-style-type: none;
+}
+
+li {
+    width: 10%;
+    height: auto;
+    margin: 25px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 1rem;
+    width: 100px;
+    height: auto;
+}
+
+span {
+    position: relative;
+    width: 45%;
+    height: auto;
+    margin: 5px;
+}
+
+a {
+    color: white;
+}
+
+span a {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    font-size: 6pt;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+section {
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.large{
+    width:100%;
+    height:auto;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+
+    main {
+        margin: 0 0 0 0;
+    }
+
+    nav {
+        position: static;
+        top: 0;
+        height: auto;
+    }
+
+    ul {
+        flex-direction: column;
+
+    }
+
+    li {
+        width: 100%;
+        text-align: center;
+    }
+    .logo {
+        visibility: hidden;
+    }
+
+    footer {
+        visibility: hidden;
+    }
+
+    .wrap {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    span {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        visibility: hidden;
+    }
+}

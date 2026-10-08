@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 600px;
+    background-color: bisque;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 125px;
+
+}
+
+div {
+    position: relative;
+    widt: 200px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regestratie</title>
+    <link href="oef3.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration Details</legend>
+            <section>
+                <label class="head" for="University">University :</label>
+                <div>
+                    <input type="text" name="University" id="University" size="30">
+                </div>
+            </section>
+            <section>
+                <label class="head" for="Institute">Institute :</label>
+                <div>
+                    <input type="text" name="Institute" id="Institute" size="30">
+                </div>
+            </section>
+            <section>
+                <label class="head" for="Degree">Degree :</label>
+                <div>
+                    <select id="Degree" name="select-single">
+                        <option value="" selected="" disabled=""> --Select-- </option>
+                        <option value="Associate">Associate</option>
+                        <option value="Bachelor">Bachelor</option>
+                        <option value="Master">Master</option>
+                        <option value="PHD">PHD</option>
+                    </select>
+                    <input type="radio" name="pursuing" id="pursuing">
+                    <label for="pursuing"> Pursuing</label>
+                    <input type="radio" name="completed" id="completed">
+                    <label for="completed"> completed</label>
+                </div>
+            </section>
+            <section>
+                <label class="head" for="Avarage CPI">Avarage CPI :</label>
+                <div>
+                    <input type="number" id="Avarage CPI" name="Avarage CPI" size="5" maxlength="5" >
+                    <span>Upto</span>
+                    <input type="number" id="Semester" name="Semester" size="5">
+                    <label for="Semester">Th Semester</label>
+                </div>
+
+            </section>
+            <section>
+                <label class="head" for="Website">Your website Or Blog :</label>
+                <div>
+                    <input type="url" id="Website" name="Website" value="http://">
+                </div>
+            </section>
+        </fieldset>
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <link href="pizzastijl.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+            Stel je eigen pizza samen en we mailen hem naar jou!
+    </header>
+    <form action="pizzabestelling.html" method="get">
+        <legend>Naam:</legend>
+        <input type="text" id="naam" name="naam" required>
+        <legend>Korst:</legend>
+        <div>
+            <input type="radio" id="Klassiek" name="korst" value="Klassiek">
+            <label for="Klassiek">Klassiek</label>
+            <input type="radio" id="Italiaans" name="korst" value="Italiaans">
+            <label for="Italiaans">Italiaans</label>
+            <input type="radio" id="Amerikaans" name="korst" value="Amerikaans">
+            <label for="Amerikaans">Amerikaans</label>
+        </div>
+
+        <legend>Toppings:</legend>
+        <section>
+            <div>
+                <input type="checkbox" id="Hesp" name="Toppings" value="Hesp">
+                <label for="Hesp">Hesp</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Champignons" name="Toppings" value="Champignons">
+                <label for="Champignons">Champignons</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Tomaat" name="Toppings" value="Tomaat">
+                <label for="Tomaat">Tomaat</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Kaas" name="Toppings" value="Kaas">
+                <label for="Kaas">Kaas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Paprika" name="Toppings" value="Paprika">
+                <label for="Paprika">Paprika</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Scampi" name="Toppings" value="Scampi">
+                <label for="Scampi">Scampi</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Tonijn" name="Toppings" value="Tonijn">
+                <label for="Tonijn">Tonijn</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Salami" name="Toppings" value="Salami">
+                <label for="Salami">Salami</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Kip" name="Toppings" value="Kip">
+                <label for="Kip">Kip</label>
+            </div>
+           <div>
+               <input type="checkbox" id="Shoarma" name="Toppings" value="Shoarma">
+               <label for="Shoarma">Shoarma</label>
+           </div>
+            <div>
+                <input type="checkbox" id="Ajuin" name="Toppings" value="Ajuin">
+                <label for="Ajuin">Ajuin</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Artisjok" name="Toppings" value="Artisjok">
+                <label for="Artisjok">Artisjok</label>
+            </div>
+           <div>
+               <input type="checkbox" id="Mais" name="Toppings" value="Mais">
+               <label for="Mais">Mais</label>
+           </div>
+            <div>
+                <input type="checkbox" id="Mozzerella" name="Toppings" value="Mozzerella" placeholder="">
+                <label for="Mozzerella">Mozzerella</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Ananas" name="Toppings" value="Ananas" disabled>
+                <label for="Ananas">Ananas</label>
+            </div>
+        </section>
+
+        <legend>Opmerkingen:</legend>
+        <textarea id="opmerkingen" name="opmerkingen" rows="5" cols="50"></textarea>
+        <legend>Betaalwijze</legend>
+        <input type="text" name="Betaalwijze" required>
+        <section>
+            <button type="submit">Ziet er lekker uit, bestellen maar!</button>
+        </section>
+
+
+
+    </form>
+
+</body>
+</html>

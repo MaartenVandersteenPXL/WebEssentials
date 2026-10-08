@@ -1,0 +1,81 @@
+/*  Naam: Maarten Vandersteen
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+header, nav, main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.5rem solid darkgray;
+    border-top: 0.5rem solid darkgray;
+
+
+}
+
+img {
+    border: 0.25rem solid darkgray;
+    margin: 0.25rem;
+    border-radius: 10%;
+
+
+}
+
+.logo {
+    max-width: 70px;
+    height: auto;
+
+}
+
+.loep {
+    font-size: 50px;
+    border: 0.25rem solid black;
+    margin: 0.25rem;
+    border-radius: 10%;
+    background-color: darkgrey;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 0.5rem solid darkgray;
+}
+
+a {
+    border: 0.125rem solid darkgray;
+    margin: 0.25rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+
+
+}
+figure {
+    position: relative;
+    left: 0.5rem
+
+}
+.stars {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.game {
+    width: 250px;
+    margin: 0.5rem;
+    border: 1px solid black;
+
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    border: 1px solid dodgerblue;
+    width: 980px;
+}
+
+
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 0.5rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+article {
+    width: 300px;
+    height: auto;
+    border: 1px solid grey;
+    text-align: center;
+    color: dodgerblue;
+    margin: 0.5rem;
+    font-weight: bold;
+
+}
+
+.fit {
+    width: 300px;
+    height: auto;
+}
+ p {
+     padding: 0.5rem;
+ }
